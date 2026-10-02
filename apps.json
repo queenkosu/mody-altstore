@@ -1,0 +1,44 @@
+{
+  "name": "Mody",
+  "identifier": "dev.kadaichecker.source",
+  "subtitle": "Moodle の非公式クライアント",
+  "description": "Mody を AltStore / SideStore で入れるための配布元です。Mody は Moodle の非公式クライアントで、Moodle Pty Ltd および大学とは関係ありません。",
+  "iconURL": "https://queenkosu.github.io/mody-altstore/icon.png",
+  "website": "https://queenkosu.github.io/mody-altstore/",
+  "tintColor": "#4C6EF5",
+  "nsfw": false,
+  "featuredApps": [
+    "dev.kadaichecker.app"
+  ],
+  "apps": [
+    {
+      "name": "Mody",
+      "bundleIdentifier": "dev.kadaichecker.app",
+      "developerName": "queenkosu",
+      "subtitle": "課題の期限・通知・時間割をまとめて",
+      "localizedDescription": "湘南工科大学の Moodle の課題・小テスト・フォーム・アンケートの期限を一覧にして、期限の前に通知する非公式クライアントです。コースへの資料の追加や先生からのお知らせも通知し、時間割もコース名から自動で作ります。\n\nサーバーは使わず、iPhone から Moodle に直接つなぎます。パスワードは保存しません（ログイン時に発行される鍵だけを iPhone のキーチェーンに保存します）。\n\nMody は Moodle の非公式クライアントです。Moodle Pty Ltd および大学とは提携・承認の関係にありません。",
+      "iconURL": "https://queenkosu.github.io/mody-altstore/icon.png",
+      "tintColor": "#4C6EF5",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.17",
+          "buildVersion": "17",
+          "date": "2026-10-02T17:04:34.053Z",
+          "localizedDescription": "最初の配布版です。",
+          "downloadURL": "https://github.com/queenkosu/mody-altstore/releases/download/v1.0.17/Mody-1.0.17.ipa",
+          "size": 10580247,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "背景に使う画像を選ぶために、写真へのアクセスを使います。",
+          "NSFaceIDUsageDescription": "Allow Mody to access your Face ID biometric data."
+        }
+      }
+    }
+  ],
+  "news": []
+}
